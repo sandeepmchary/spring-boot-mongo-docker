@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: formycore/spring-boot-mongo
+      - image: spring-boot-mongo-kub
         name: springboot
         ports:
         - name: springboot
